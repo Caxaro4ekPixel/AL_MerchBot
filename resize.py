@@ -8,5 +8,5 @@ onlyfiles = [f for f in listdir(mypath)]
 for i in onlyfiles:
     foo = Image.open(f'{mypath}/{i}')
     print(foo.size)
-    foo = foo.resize((350, 350))
+    foo = foo.resize((500, 500))
     foo.save(f'static/img/merch/ready/{i}', optimize=True, quality=95)

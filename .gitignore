@@ -2,5 +2,5 @@
 venv
 .idea
 singularitylab-master
-static/img/merch/ready
-static/img/merch/test
+app/static/img/merch/ready
+app/static/img/merch/test
